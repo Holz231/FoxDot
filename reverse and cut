@@ -1,0 +1,5 @@
+p1 >> pads([0,1,2,3]) + [0,1,[0,(0,2)]]
+p1 >> pads([0,2,4,6]).every(4, "reverse")
+p1.every([1,[1,2],1], "stutter", 4, oct=4, pan=[-1,1])
+# This behaviour is particularly useful when using the follow method.
+b1 >> bass([0,2,4,2], dur=2)
