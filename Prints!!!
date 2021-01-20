@@ -1,0 +1,10 @@
+
+# To see all attributes:
+print(Player.get_attributes())
+
+# You can see what effects are available by evaluating
+print(FxList)
+
+print(SynthDefs)#
+
+
