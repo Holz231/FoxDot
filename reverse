@@ -1,6 +1,0 @@
-p1 >> pads([0,2,4,6])
-p1.every(4, "reverse")
-
-
-
-p1 >> pads([0,2,4,6]).every(4, "reverse")
